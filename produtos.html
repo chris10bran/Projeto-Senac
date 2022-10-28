@@ -43,28 +43,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container-fluid">
                     <h1 class="mt-4">Cadastro do Cliente</h1>
                     <p>Insira os dados correitamente</p>
                     <form action="cadastro.php" method="POST">
-  <div class="mb-3">
-    <label for="nome" class="form-label">Nome</label>
-    <input type="text" name="nome" class="form-control" id="nome">
-  </div>
-  <div class="mb-3">
-    <label for="email" class="form-label">Email</label>
-    <input type="email" name="email" class="form-control" id="email">
-  </div>
-  <div class="mb-3">
-    <label for="senha" class="form-label">Password</label>
-    <input type="password" name="senha" class="form-control" id="senha">
-  </div>
-  <div class="mb-3">
-    <label for="nome" class="form-label">Telefonne</label>
-    <input type="number" name="fone" class="form-control" id="fone">
-  </div>
-  <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+                        <div class="mb-3">
+                          <label for="nome" class="form-label">Nome</label>
+                          <input type="text" name="nome" class="form-control" id="nome">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Descrição</label>
+                          <input type="text" name="desc" class="form-control" id="desc">
+                        </div>
+                        <div class="mb-3">
+                          <label for="preco" class="form-label">Preço</label>
+                          <input type="number" name="preco" class="form-control" id="preco">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipo" class="form-label">Tipo</label>
+                            <select name="tipo" id="tipo" class="form-select">
+                              <option selected>Selecione o Produto</option>
+                              <option value="Tipo 1">Tipo 1</option>
+                              <option value="Tipo 2">Tipo 2</option>
+                              <option value="Tipo 3">Tipo 3</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
                 </div>
             </div>
         </div>

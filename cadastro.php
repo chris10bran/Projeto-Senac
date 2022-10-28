@@ -39,14 +39,17 @@
                          <div class="col-6">
                          <h1 class="display-3">Sistema ProgWeb</h1>
                          <p>Sistema completo com Bootstrap, php e MySQL</p>
-                         </div>   
+                         </div> 
+                         <div class="col-6 d-flex align-itens-center justify-content-end">
+                            <h3>Ola Chris!!</h3>
+                         </div>  
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <h1 class="mt-4">Cadastro do Cliente</h1>
                     <p>Insira os dados correitamente</p>
-                    <form action="cadastro.php" method="POST">
+                    <form action="processa.php" method="POST">
   <div class="mb-3">
     <label for="nome" class="form-label">Nome</label>
     <input type="text" name="nome" class="form-control" id="nome">
